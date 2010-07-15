@@ -1,3 +1,13 @@
+'''
+A script to screen-scrape Astronomy Picture of the Day and come up with a
+league table of "Tomorrow's picture" teasers.
+
+APOD (http://apod.nasa.gov/) gives a teaser every day for the next day's
+picture. I noticed that they seemed to be using "pixels in space" or
+"open space" for this almost every other day, and wanted to see exactly how
+stuck in a rut they were.
+'''
+
 from httplib import HTTPConnection
 import re
 
